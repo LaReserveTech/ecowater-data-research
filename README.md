@@ -26,7 +26,7 @@ De la même manière, il faut spécifier la version Python de l'environnement vi
 ```
 poetry shell
 ```
-Cette commande permet d'activer l'environnement virtuel. Ainsi, toute commande dans le terminal (par exemple `python script.py` piur exécuter un script `script.py`) s'exécutera au sein de l'environnement virtuel défini par le projet (et bénéficiera donc des librairies installées pour le projet).
+Cette commande permet d'activer l'environnement virtuel. Ainsi, toute commande dans le terminal (par exemple `python script.py` pour exécuter un script `script.py`) s'exécutera au sein de l'environnement virtuel défini par le projet (et bénéficiera donc des librairies installées pour le projet).
 
 ### **Quitter l'environnement virtuel**
 
