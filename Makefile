@@ -11,7 +11,11 @@ clean:
 	rm -r -f $(VENV)
 
 all:
+	$(MAKE) -s .env
 	$(MAKE) -s install
+
+.env: 
+	cp .env.template .env
 
 $(POETRY): 
 	$(MAKE) -s $(VENV)
