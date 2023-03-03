@@ -2,3 +2,9 @@
 .vscode
 # Virtual environment
 .venv
+# Datasets
+data/copernicus
+# environment variables
+.env
+# Python cache files
+__pycache__
