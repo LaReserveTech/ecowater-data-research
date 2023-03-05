@@ -3,7 +3,8 @@
 # Virtual environment
 .venv
 # Datasets
-data/copernicus
+data/*
+!data/mapping
 # environment variables
 .env
 # Python cache files
