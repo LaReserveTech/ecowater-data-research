@@ -5,6 +5,7 @@
 # Datasets
 data/*
 !data/mapping
+data/mapping/contours_lambert_93.json
 # environment variables
 .env
 # Python cache files
