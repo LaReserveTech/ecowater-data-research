@@ -62,6 +62,8 @@ def contains(
     bool
         Series with booleans to indicate if the points are in the regions.
     """
+    if region_series[geometry_col_regions] is None:
+        return bool
     return region_series[geometry_col_regions].contains(gdf[geometry_col_gdf])
 
 
@@ -83,7 +85,7 @@ def set_code_where_true(region_series: pd.Series) -> pd.Series:
         np.nan,
     ).mask(
         region_series,
-        int(region_series.name),
+        str(region_series.name),
     )
 
 
@@ -132,6 +134,8 @@ def map_geometry_to_region_code(
 
     total = None
     for _, column in regions_codes.items():
+        if column.empty or (total is not None and pd.isna(total).all()):
+            continue
         if total is None:
             total = column
             continue
