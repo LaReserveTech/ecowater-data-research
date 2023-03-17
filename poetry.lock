@@ -111,13 +111,13 @@ uvloop = ["uvloop (>=0.15.2)"]
 
 [[package]]
 name = "cdsapi"
-version = "0.5.1"
+version = "0.6.1"
 description = "Climate Data Store API"
 category = "main"
 optional = false
 python-versions = "*"
 files = [
-    {file = "cdsapi-0.5.1.tar.gz", hash = "sha256:19f3e92f1996cc1115d0b0281617edeaecf3eefca03fbd384cfbc520d5f0476d"},
+    {file = "cdsapi-0.6.1.tar.gz", hash = "sha256:7d40c58e3fd3e75a8acdcdc81eab4ef9b6f763b2902ba01d7d1738f3652a5a30"},
 ]
 
 [package.dependencies]
@@ -1596,4 +1596,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "734eebaf5b8caab218e54d8fae9f6a9a380614ba804f96743a3d2882122245eb"
+content-hash = "8d5fb86165a09a5cb4104ee86ef8f0a923b555b1d55c6638601fa9473d1357e1"
