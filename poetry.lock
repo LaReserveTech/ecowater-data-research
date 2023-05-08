@@ -512,22 +512,22 @@ pyflakes = ">=3.0.0,<3.1.0"
 
 [[package]]
 name = "geopandas"
-version = "0.12.2"
+version = "0.13.0"
 description = "Geographic pandas extensions"
 category = "main"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "geopandas-0.12.2-py3-none-any.whl", hash = "sha256:0a470e4bf6f5367e6fd83ab6b40405e0b805c8174665bbcb7c4077ed90202912"},
-    {file = "geopandas-0.12.2.tar.gz", hash = "sha256:0acdacddefa176525e4da6d9aeeece225da26055c4becdc6e97cf40fa97c27f4"},
+    {file = "geopandas-0.13.0-py3-none-any.whl", hash = "sha256:2a5d7f2dfa46c6679ca2d2358b49420be08bab31a7882b500bdb2ae8be40603a"},
+    {file = "geopandas-0.13.0.tar.gz", hash = "sha256:330b5a3faf8062efc6f424bf339f6e88f835b846027b48241d37da9b7c7b2485"},
 ]
 
 [package.dependencies]
-fiona = ">=1.8"
+fiona = ">=1.8.19"
 packaging = "*"
-pandas = ">=1.0.0"
-pyproj = ">=2.6.1.post1"
-shapely = ">=1.7"
+pandas = ">=1.1.0"
+pyproj = ">=3.0.1"
+shapely = ">=1.7.1"
 
 [[package]]
 name = "idna"
@@ -1597,4 +1597,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "1d773bd009a1b8b4c3113267484ec5c39b3ee9b4ed01a26af4395d0cb45a5caa"
+content-hash = "1504b89e9b5d95d21947dcf18c0c222d192ba00453d560ae1beea6074cb11f3c"
