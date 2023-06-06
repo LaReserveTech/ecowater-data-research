@@ -15,7 +15,7 @@ cdsapi = "^0.6.1"
 python-dotenv = "^1.0.0"
 plotly = "^5.14.1"
 nbformat = "^5.8.0"
-geopandas = "^0.12.2"
+geopandas = "^0.13.2"
 pyshp = "^2.3.1"
 
 
